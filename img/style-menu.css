@@ -1,0 +1,19 @@
+/* h1タグ */
+h1 {
+  text-align: center; 
+  padding: 30px 0; 
+}
+/* まとめて指定する場合 */
+table {
+  margin: 0px auto;    /* 上下0px 左右auto 中央寄せで必要 */
+}
+
+@media only screen and (max-width:764px){
+	table {
+    margin: 0px auto;    /* 上下0px 左右auto 中央寄せで必要 */
+	}
+	table td {
+    width: 99%; /* 横幅を指定 */
+		display: block;
+	}
+}
